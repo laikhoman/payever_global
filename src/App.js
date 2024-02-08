@@ -40,7 +40,7 @@ export default function App() {
       <div className={menuHide ? "menu-div" : "not-display"}>
         {markers.map((v, i) => (
           <div key={i} onClick={() => handleSituation(v)}>
-            <h4>{v.city}</h4>
+            <h4>{v.country}</h4>
           </div>
         ))}
       </div>
